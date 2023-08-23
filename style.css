@@ -129,6 +129,7 @@ body {
 
 .qr-body {
     width: 256px;
+    font-feature-settings: 'clig' off, 'liga' off;
     letter-spacing: 0.188px;
 }
 
