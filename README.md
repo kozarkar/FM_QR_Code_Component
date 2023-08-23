@@ -40,5 +40,5 @@ I learnt to structure my project in a way that is easier to manage and update.
 
 ## Author
 
-- Website - [Add your name here](http://www.rakrazo.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/kozarkar)
+- Website - [Razrazo.com](http://www.rakrazo.com)
+- Frontend Mentor - [@kozarkar](https://www.frontendmentor.io/profile/kozarkar)
