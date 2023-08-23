@@ -1,0 +1,138 @@
+:root {
+    /* Colors */
+    --clr-blue: hsla(216, 95%, 58%, 1);
+    --clr-blue-shade: hsla(216, 100%, 61%, 1);
+    --clr-dark-navy: hsla(217, 44%, 22%, 1);
+    --clr-grey: hsla(219, 15%, 55%, 1);
+    --clr-light-gray: hsla(211, 45%, 89%, 1);
+    --clr-white: hsla(0, 0%, 100%, 1);
+
+    /* Font Family */
+    --ff-primary: 'Outfit', sans-serif;
+
+    /* Font Weights */
+    --fw-regular: 400;
+    --fw-bold: 700;
+
+    /* Font Sizes */
+    --fs-heading: 22px;
+    --fs-body: 15px;
+
+    /* Line Heights */
+    --lh-heading: normal;
+    --lh-body: normal;
+}
+
+
+/* General Styling */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+/* Color Classes */
+.text-dark-navy {
+    color: var(--clr-dark-navy);
+}
+
+.text-grey {
+    color: var(--clr-grey);
+}
+
+.bg-light-gray {
+    background-color: var(--clr-light-gray);
+}
+
+.bg-white {
+    background-color: var(--clr-white);
+}
+
+/* Font Weight Classes */
+.fw-regular {
+    font-weight: var(--fw-regular);
+}
+
+.fw-bold {
+    font-weight: var(--fw-bold);
+}
+
+/* Font Classes */
+.heading {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-heading);
+    font-style: normal;
+    line-height: var(--lh-heading);
+}
+
+.body {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    font-style: normal;
+    line-height: var(--lh-body);
+}
+
+/* Custom Styling */
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--clr-light-gray);
+    position: relative;
+}
+
+.card {
+    width: 320px;
+    height: 497px;
+}
+
+.qr-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    padding: 16px 16px 40px 16px;
+    background-color: var(--clr-white);
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.qr {
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+}
+
+.qr-body {
+    width: 256px;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    font-family: var(--ff-primary);
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+  }
