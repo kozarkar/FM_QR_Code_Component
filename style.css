@@ -120,6 +120,12 @@ body {
     border-radius: 10px;
 }
 
+.qr-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
 .qr-body {
     width: 256px;
 }
