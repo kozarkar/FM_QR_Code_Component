@@ -129,6 +129,7 @@ body {
 
 .qr-body {
     width: 256px;
+    letter-spacing: 0.188px;
 }
 
 .attribution {
